@@ -8,7 +8,7 @@ This module is for learning purposes and has not been tested for "production."
 
 ~~~
 module "website_s3_bucket" {
-  source = "github.com/Keimille/terraform-aws-s3webapp"
+  source = "github.com/Keimille/terraform-aws-s3website"
 
   bucket_name = "<UNIQUE BUCKET NAME>"
 
